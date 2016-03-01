@@ -15,4 +15,6 @@ rm index.html
 wget -O e.tar.gz https://github.com/sbrakl/Sticky/blob/master/sites/europe.tar.gz?raw=true
 #unzip the tar
 tar -xvf e.tar.gz
+#verify webserver
+lynx -dump http://localhost/
 
